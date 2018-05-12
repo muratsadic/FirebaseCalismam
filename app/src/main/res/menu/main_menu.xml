@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profile_details_item"
+        android:title="Profil"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/kullaniciSil"
+        android:title="Kullanıcı Sil"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/cikis_yap"
+        android:title="Çıkış Yap"
+        app:showAsAction="collapseActionView"/>
+
+</menu>

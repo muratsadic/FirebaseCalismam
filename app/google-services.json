@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "250513368876",
+    "firebase_url": "https://fir-deneme-6d260.firebaseio.com",
+    "project_id": "fir-deneme-6d260",
+    "storage_bucket": "fir-deneme-6d260.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250513368876:android:c831c6d496c365a9",
+        "android_client_info": {
+          "package_name": "com.murat.firebasecalismam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250513368876-kdli2m8sn7t1h64r4dms2vg5f1osp5ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.murat.firebasecalismam",
+            "certificate_hash": "d0c893ee692582c4f06f4b308ccd2548fc4f8098"
+          }
+        },
+        {
+          "client_id": "250513368876-uv2693hulecfs2a6aobiokq4d657ov07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.murat.firebasecalismam",
+            "certificate_hash": "b2f690a9a3ce65def93dced67540f8e2832e6832"
+          }
+        },
+        {
+          "client_id": "250513368876-7437cppb02nocc4n6dmgcu4q9mii741r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8xC3IwUHg2dUE-M5LIgAiYbCgYxSETYI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250513368876-7437cppb02nocc4n6dmgcu4q9mii741r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

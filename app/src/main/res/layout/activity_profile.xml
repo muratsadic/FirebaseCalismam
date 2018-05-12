@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.murat.firebasecalismam.Activity.ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/profileIsimText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSelectImage"
+            android:background="@color/colorPrimary"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:text="Avatar Seç"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/_5sdp"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="1dp"/>
+
+        <Button
+            android:id="@+id/buttonSaveImage"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffffff"
+            android:text="Yükle"/>
+
+
+        <!--    <Button
+              android:id="@+id/buttonSignOut"
+              android:background="@color/colorPrimaryDark"
+              android:layout_margin="15dp"
+              android:layout_marginBottom="20dp"
+              android:text="Çıkış Yap"
+              android:textColor="#ffffff"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />-->
+
+      </LinearLayout>
+
+    </ScrollView>
+
+
+  </RelativeLayout>

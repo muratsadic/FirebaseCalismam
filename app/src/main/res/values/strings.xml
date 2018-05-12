@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Firebase Calismam</string>
+
+    <string name="beniHatirla">Beni Hatırla</string>
+    <string name="giris">Giriş</string>
+    <string name="hesabOlustur">Hesabınız yok mu? Bir tane oluşturun</string>
+
+
+    <string name="sifre">Şifre</string>
+    <string name="email">Email</string>
+    <string name="isim">Adınız</string>
+    <string name="soyIsim">Soyadınız</string>
+    <string name="minimum_password">Şifre çok kısa, en az 6 karakter girin!</string>
+    <string name="auth_failed">Kimlik doğrulama başarısız oldu, e-postanızı ve şifrenizi kontrol edin veya kayıt olun</string>
+
+    <string name="hint_password">Şifre</string>
+    <string name="action_sign_in_short">Kayıt ol</string>
+    <string name="btn_forgot_password">Parolanızı mı unuttunuz?</string>
+    <string name="btn_link_to_login">Zaten kayıtlı. Giriş Yap!</string>
+
+    <string name="lbl_forgot_password">Parolanızı mı unuttunuz?</string>
+    <string name="forgot_password_msg">Şifre sıfırlama talimatlarını göndermek için kayıtlı E-posta adresine ihtiyacımız var.</string>
+    <string name="btn_reset_password">Şifreyi yenile</string>
+    <string name="btn_back"><![CDATA[<< Geri]]></string>
+
+    <string name="cikisyap">Çıkış Yap</string>
+    <string name="kullaniciSil">Kullanıcı Sil</string>
+
+</resources>
